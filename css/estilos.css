@@ -8,12 +8,14 @@
 
 body {
   align-items: center;
-  background: linear-gradient(45deg, #a7cfdf 0%,#4f0779 100%);
+  background: linear-gradient(27deg, #749eaf 0%,#4f0779 100%);
   display: flex;
   justify-content: center;
   flex-direction: column;
   font-family: 'Montserrat', sans-serif;
   min-height: 100vh;
+  margin: 100x;
+  padding: 10%;
 }
 
 h1 {
@@ -25,10 +27,10 @@ h1 {
 .divAcess {
   background-color: var(--branca);
   box-shadow: 4px 6px 0 3px rgb(2, 2, 2), 5px 5px 5px #000;
-  border-radius: 30px;
+  border-radius: 10px;
   display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(3, 1fr);
+  gap: auto;
+  grid-template-columns: repeat(3, 2fr);
   padding: 20px;
 }
 

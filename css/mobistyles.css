@@ -1,0 +1,15 @@
+.rootmobi {
+    --cinza: #aaa;
+    --vermelha: #3d82e9;
+    --vermelha-escura: #af303f;
+    --branca: #fff;
+    --luz: rgb(229, 255, 0);
+  }
+
+.FundoGeral {
+    --fundoBox: #fff;
+    --FundoBG: #fff;
+    --FundoDiv: #fff;
+    --corVoa01: #fff;
+    --corVoa02: #fff;
+}

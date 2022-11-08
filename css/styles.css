@@ -60,8 +60,14 @@ img {
 div {
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 70px;
+}
+
+ul {
+    display: inline-block;
+    align-items: center;
+    vertical-align: center;
+    width: 100%;
 }
 
 .itens {

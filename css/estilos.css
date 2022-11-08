@@ -18,6 +18,11 @@ body {
   padding: 10%;
 }
 
+header {
+  text-align: center;
+  align-items: center;
+}
+
 h1 {
   color: var(--branca);
   margin-bottom: 20px;

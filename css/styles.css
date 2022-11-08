@@ -1,11 +1,28 @@
+:root {
+    --color-redHexa: #ff0000;
+    --color-greenHexa: #00ff00;
+    --color-blueHexa: #0000ff;
+    --color-cinzaHexa: #CCCCCC;
+    --color-brancaHexa: #fff;
+    --color-red: rgb(255,0,0);
+    --color-green: rgb(0,255,0);
+    --color-blue: rgb(0,0,255);
+    --color-roxa: rgb(125, 77, 229);
+    --color-branca: rgb(255,255,255);
+}
+
 title {
     font-size: medium;
 }
 
 body {
+    background-color: var(--color-branca);
     align-items: center;
+    justify-content: center;
 }
 
+li,
+br,
 h1,
 h2,
 h3,
@@ -14,6 +31,7 @@ h5,
 h6 {
     font-size: larger-x;
     text-align: center;
+    color: var(--color-roxa)
 }
 
 p {
@@ -23,4 +41,29 @@ p {
 
 em {
     font-size: large;
+}
+
+strong {
+    color: var(--color-roxa);
+}
+
+img {
+    width: 30%;
+    margin: auto;
+    display: block;
+    position: absolute;
+    /*border: 10px solid;*/
+    padding-top: 5px;
+    margin-left: 10px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.itens {
+    font-style: italic;
 }

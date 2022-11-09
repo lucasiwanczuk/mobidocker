@@ -41,29 +41,6 @@ h6 {
     color: var(--color-roxa)
 }
 
-div {
-    justify-content: center;
-    align-items: center;
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
-
-#divBanner {
-    background-color: var(--color-branca);
-    text-align: center;
-    margin-left: 10px;
-    width: 30%;
-    font-size: 10%;
-}
-
-#divTexto {
-    size: 70%;
-    font-size: 16px;
-}
-
-#divLista {
-    font-size: 18px;
-}
 
 p {
     font-size: medium;
@@ -85,4 +62,28 @@ ul {
 .itens {
     font-style: italic;
     color: var(--color-roxa);
+}
+
+div {
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#divBanner {
+    background-color: var(--color-branca);
+    text-align: center;
+    margin-left: 10px;
+    width: 30%;
+    font-size: 10px;
+}
+
+#divTexto {
+    size: 70%;
+    font-size: 16px;
+}
+
+#divLista {
+    font-size: 18px;
 }

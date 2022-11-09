@@ -74,8 +74,8 @@ div {
 #divBanner {
     background-color: var(--color-branca);
     text-align: center;
-    margin-left: 10px;
-    width: 30%;
+    align-items: center;
+    width: 100%;
     font-size: 10px;
 }
 

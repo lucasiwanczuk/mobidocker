@@ -4,11 +4,11 @@
     --color-blueHexa: #0000ff;
     --color-cinzaHexa: #CCCCCC;
     --color-brancaHexa: #fff;
-    --color-red: rgb(255,0,0);
-    --color-green: rgb(0,255,0);
-    --color-blue: rgb(0,0,255);
+    --color-red: rgb(255, 0, 0);
+    --color-green: rgb(0, 255, 0);
+    --color-blue: rgb(0, 0, 255);
     --color-roxa: rgb(125, 77, 229);
-    --color-branca: rgb(255,255,255);
+    --color-branca: rgb(255, 255, 255);
 }
 
 title {
@@ -19,6 +19,13 @@ body {
     background-color: var(--color-branca);
     align-items: center;
     justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: auto;
+}
+
+header {
+    font-size: larger-x;
 }
 
 li,
@@ -34,33 +41,38 @@ h6 {
     color: var(--color-roxa)
 }
 
+div {
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#divBanner {
+    background-color: var(--color-branca);
+    text-align: center;
+    margin-left: 10px;
+    width: 30%;
+    font-size: 10%;
+}
+
+#divTexto {
+    size: 70%;
+    font-size: 16px;
+}
+
+#divLista {
+    font-size: 18px;
+}
+
 p {
     font-size: medium;
     text-align: center;
 }
 
+
 em {
     font-size: large;
-}
-
-strong {
-    color: var(--color-roxa);
-}
-
-img {
-    width: 30%;
-    margin: auto;
-    display: block;
-    position: absolute;
-    /*border: 10px solid;*/
-    padding-top: 5px;
-    margin-left: 10px;
-}
-
-div {
-    display: flex;
-    justify-content: center;
-    height: 70px;
 }
 
 ul {
@@ -72,4 +84,5 @@ ul {
 
 .itens {
     font-style: italic;
+    color: var(--color-roxa);
 }

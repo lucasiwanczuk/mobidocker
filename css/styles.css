@@ -28,7 +28,6 @@ header {
     font-size: larger-x;
 }
 
-li,
 br,
 h1,
 h2,
@@ -41,18 +40,23 @@ h6 {
     color: var(--color-roxa)
 }
 
-
 p {
     font-size: medium;
     text-align: center;
 }
-
 
 em {
     font-size: large;
 }
 
 ul {
+    display: inline-block;
+    align-items: center;
+    vertical-align: center;
+    width: 100%;
+}
+
+li {
     display: inline-block;
     align-items: center;
     vertical-align: center;
@@ -69,21 +73,21 @@ div {
     align-items: center;
     margin-top: 3%;
     margin-bottom: 3%;
+    text-align: center;
 }
 
 #divBanner {
     background-color: var(--color-branca);
-    text-align: center;
-    align-items: center;
     width: 100%;
     font-size: 10px;
 }
 
 #divTexto {
-    size: 70%;
+    size: 100%;
     font-size: 16px;
 }
 
 #divLista {
+    size: 100%;
     font-size: 18px;
 }

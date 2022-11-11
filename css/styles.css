@@ -91,3 +91,18 @@ div {
     size: 100%;
     font-size: 18px;
 }
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.subContainer {
+    width: 20%;
+    height: 200px;
+    background-color: var(--color-blueHexa);
+    border: 1px solid black;
+}

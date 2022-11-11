@@ -103,8 +103,7 @@ div {
 }
 
 .botaoLogar {
-    font-size: 16px;
-    border-color: black;
+    font-size: 14px;
 }
 
 #divBanner {
@@ -126,8 +125,5 @@ div {
 #textoGrande {
     font-size: 20px;
     text-align: left;
-    margin-top: 7%;
-    margin-bottom: 7%;
-    margin-left: 7%;
-    margin-right: ;
+    margin: 7%;
 }
